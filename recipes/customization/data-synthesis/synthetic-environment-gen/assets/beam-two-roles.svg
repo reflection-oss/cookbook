@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">Beam as generator and as teacher</title>
+  <desc id="desc">As the generator, Beam writes the task with a hidden ground truth, an initial-state test, the hidden verifier and a container definition, and repairs the definition from build errors. As the teacher, Beam solves the task in the container with a bash tool, and the verifier decides whether the attempt is kept.</desc>
+  <rect width="1000" height="470" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="60" font-size="23" fill="#1e3207" font-weight="600">Beam as the generator</text>
+    <text x="40" y="90" font-size="18" fill="#1a1b1a">Writes everything an environment needs.</text>
+    <path d="M500 40V430" stroke="#d3d6cc"/>
+    <text x="540" y="60" font-size="23" fill="#1e3207" font-weight="600">Beam as the teacher</text>
+    <text x="540" y="90" font-size="18" fill="#1a1b1a">Solves the environment it made, one command at a time.</text>
+    <g font-size="17">
+      <rect x="40" y="120" width="420" height="52" rx="9" fill="#1e3207"/>
+      <text x="56" y="152" fill="white">Task description + hidden ground truth</text>
+      <rect x="40" y="186" width="420" height="52" rx="9" fill="#dfe4d8"/>
+      <text x="56" y="218" fill="#1e3207">Initial-state test: the image starts as described</text>
+      <rect x="40" y="252" width="420" height="52" rx="9" fill="#1e3207"/>
+      <text x="56" y="284" fill="white">Hidden verifier: tests behavior, not the agent's source</text>
+      <rect x="40" y="318" width="420" height="52" rx="9" fill="#dfe4d8"/>
+      <text x="56" y="350" fill="#1e3207">Container definition, repaired from build errors</text>
+      <text x="40" y="412" font-size="16" fill="#1a1b1a">Kept only if the image builds and the initial-state test passes.</text>
+
+      <rect x="540" y="120" width="420" height="52" rx="9" fill="#dfe4d8"/>
+      <text x="556" y="152" fill="#1e3207">Reads the task; works in the container with bash</text>
+      <rect x="540" y="186" width="420" height="52" rx="9" fill="#1e3207"/>
+      <text x="556" y="218" fill="white">Reasons, runs a bash command, reads the output, repeats</text>
+      <rect x="540" y="252" width="420" height="52" rx="9" fill="#dfe4d8"/>
+      <text x="556" y="284" fill="#1e3207">Submits; the hidden verifier runs in the same container</text>
+      <rect x="540" y="318" width="420" height="52" rx="9" fill="#1e3207"/>
+      <text x="556" y="350" fill="white">Pass: the whole trajectory becomes a golden trace</text>
+      <text x="540" y="412" font-size="16" fill="#1a1b1a">Two attempts per environment; the shortest passing one is trace_0.</text>
+    </g>
+  </g>
+</svg>

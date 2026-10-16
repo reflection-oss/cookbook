@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">The reliability gap on the 2,065 training tasks</title>
+  <desc id="desc">On the training tasks the base model passes 51.7 percent of kernels on the first attempt and 89.7 percent within sixteen attempts. The fine-tune trains on the verified passing samples to close that gap.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="960" height="260" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="480.0" y="40.0" font-size="21" fill="#1e3207" text-anchor="middle" font-weight="600">Beam already solves these tasks</text>
+    <text x="286.0" y="95.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">first attempt (pass@1)</text>
+    <path d="M300.0 72.0H585.5Q589.5 72.0 589.5 76.0V102.0Q589.5 106.0 585.5 106.0H300.0Z" fill="#dfe4d8"/>
+    <text x="579.5" y="95.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="600">51.7 %</text>
+    <text x="286.0" y="147.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">within sixteen attempts (pass@16)</text>
+    <path d="M300.0 124.0H798.3Q802.3 124.0 802.3 128.0V154.0Q802.3 158.0 798.3 158.0H300.0Z" fill="#1e3207"/>
+    <text x="792.3" y="147.0" font-size="15" fill="white" text-anchor="end" font-weight="600">89.7 %</text>
+    <line x1="589.5" y1="89.0" x2="589.5" y2="192.0" stroke="#8f9a84" stroke-width="1.5" opacity="1"/>
+    <line x1="802.3" y1="141.0" x2="802.3" y2="192.0" stroke="#8f9a84" stroke-width="1.5" opacity="1"/>
+    <line x1="589.5" y1="192.0" x2="802.3" y2="192.0" stroke="#8f9a84" stroke-width="1.5" opacity="1"/>
+    <text x="695.9" y="214.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="600">the reliability gap: kernels Beam writes, but not on the first try</text>
+    <text x="695.9" y="234.0" font-size="13" fill="#8f9a84" text-anchor="middle" font-weight="normal">fine-tuning on the verified samples moves them to the first attempt</text>
+  </g>
+</svg>

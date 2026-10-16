@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">E4B section deltas, recipe minus stock</title>
+  <desc id="desc">Relevance rises 25 points and multi-turn 11.4; irrelevance falls 14.4; the other sections move by 1.4 to 10.9 points in the recipe's favour.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="1000" height="300" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="500.0" y="36.0" font-size="22" fill="#1e3207" text-anchor="middle" font-weight="600">Where the E4B gains and where it pays</text>
+    <text x="448.0" y="87.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">single-turn non-live</text>
+    <path d="M460.0 70.0H475.6Q479.6 70.0 479.6 74.0V90.0Q479.6 94.0 475.6 94.0H460.0Z" fill="#1e3207"/>
+    <text x="487.6" y="87.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">+1.4</text>
+    <text x="448.0" y="123.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">single-turn live</text>
+    <path d="M460.0 106.0H608.6Q612.6 106.0 612.6 110.0V126.0Q612.6 130.0 608.6 130.0H460.0Z" fill="#1e3207"/>
+    <text x="620.6" y="123.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">+10.9</text>
+    <text x="472.0" y="159.0" font-size="15" fill="#1e3207" text-anchor="start" font-weight="normal">irrelevance</text>
+    <rect x="258.4" y="142.0" width="201.6" height="24.0" rx="4" fill="#8f9a84"/>
+    <text x="250.4" y="159.0" font-size="14" fill="#1e3207" text-anchor="end" font-weight="normal">-14.4</text>
+    <text x="448.0" y="195.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">relevance</text>
+    <path d="M460.0 178.0H806.0Q810.0 178.0 810.0 182.0V198.0Q810.0 202.0 806.0 202.0H460.0Z" fill="#1e3207"/>
+    <text x="818.0" y="195.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">+25.0</text>
+    <text x="448.0" y="231.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">multi-turn</text>
+    <path d="M460.0 214.0H615.6Q619.6 214.0 619.6 218.0V234.0Q619.6 238.0 615.6 238.0H460.0Z" fill="#1e3207"/>
+    <text x="627.6" y="231.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">+11.4</text>
+    <text x="448.0" y="267.0" font-size="15" fill="#1e3207" text-anchor="end" font-weight="normal">memory</text>
+    <path d="M460.0 250.0H528.8Q532.8 250.0 532.8 254.0V270.0Q532.8 274.0 528.8 274.0H460.0Z" fill="#1e3207"/>
+    <text x="540.8" y="267.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">+5.2</text>
+    <line x1="460.0" y1="62.0" x2="460.0" y2="280.0" stroke="#1e3207" stroke-width="1" opacity="0.4"/>
+    <text x="500.0" y="292.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">points of BFCL v4 section accuracy, recipe minus stock E4B</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+# Training node, as used for the run in the README (Python 3.12, CUDA 13).
+torch==2.9.1
+transformers==5.19.0
+trl==1.14.2
+accelerate==1.15.0
+datasets==5.1.0
+# Evaluation machine: Harbor runs mini-swe-agent in Docker against the
+# served model.
+harbor==0.24.0

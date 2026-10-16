@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">Stock E4B against the fine-tune on one tool-calling prompt</title>
+  <desc id="desc">On the same prompt with thinking on, the stock E4B generates 444 tokens and the fine-tune 205, and both make the same two tool calls.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="1000" height="440" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="500.0" y="36.0" font-size="22" fill="#1e3207" text-anchor="middle" font-weight="600">Same prompt, same tools, thinking on</text>
+    <text x="500.0" y="62.0" font-size="15" fill="#1e3207" text-anchor="middle" font-weight="normal">User: Find me flights from SFO to JFK on 2026-11-03 and tell me what the weather in New York will be like that</text>
+    <text x="500.0" y="82.0" font-size="15" fill="#1e3207" text-anchor="middle" font-weight="normal">day.</text>
+    <text x="30.0" y="128.0" font-size="17" fill="#1e3207" text-anchor="start" font-weight="600">Stock Gemma 4 E4B</text>
+    <text x="485.0" y="128.0" font-size="17" fill="#1e3207" text-anchor="end" font-weight="600">444 tokens generated</text>
+    <rect x="30.0" y="140.0" width="455.0" height="188.0" rx="12" fill="#e3ecd7"/>
+    <text x="44.0" y="157.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">1. Analyze the user's request: The user wants two pieces of</text>
+    <text x="44.0" y="174.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">information: flights from SFO to JFK on 2026-11-03, and the</text>
+    <text x="44.0" y="191.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">weather in New York on 2026-11-03. 2. Examine available</text>
+    <text x="44.0" y="208.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">tools: search_flights(origin, destination, date): This tool</text>
+    <text x="44.0" y="225.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">can handle the flight search. get_weather_forecast(city,</text>
+    <text x="44.0" y="242.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">date): This tool can handle the weather forecast.</text>
+    <text x="44.0" y="259.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">book_flight(flight_id, passenger_name): This tool is not</text>
+    <text x="44.0" y="276.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">relevant to the current request. 3. Determine the necessary</text>
+    <text x="44.0" y="293.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">tool calls: Flight search: origin: "SFO", destination:</text>
+    <text x="44.0" y="310.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">"JFK", date: "2026-11-03"  ...</text>
+    <rect x="30.0" y="336.0" width="455.0" height="28.0" rx="12" fill="#1e3207"/>
+    <text x="44.0" y="355.0" font-size="12" fill="white" text-anchor="start" font-weight="normal">search_flights(origin="SFO", destination="JFK", date="2026-11-03")</text>
+    <rect x="30.0" y="370.0" width="455.0" height="28.0" rx="12" fill="#1e3207"/>
+    <text x="44.0" y="389.0" font-size="12" fill="white" text-anchor="start" font-weight="normal">get_weather_forecast(city="New York", date="2026-11-03")</text>
+    <text x="515.0" y="128.0" font-size="17" fill="#1e3207" text-anchor="start" font-weight="600">After this recipe</text>
+    <text x="970.0" y="128.0" font-size="17" fill="#1e3207" text-anchor="end" font-weight="600">205 tokens generated</text>
+    <rect x="515.0" y="140.0" width="455.0" height="188.0" rx="12" fill="#e3ecd7"/>
+    <text x="529.0" y="157.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">The user wants flights from SFO to JFK on 2026-11-03 and</text>
+    <text x="529.0" y="174.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">the weather in New York on the same date. The</text>
+    <text x="529.0" y="191.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">search_flights function is the right fit for the flight</text>
+    <text x="529.0" y="208.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">request because it accepts origin, destination, and date,</text>
+    <text x="529.0" y="225.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">all of which are provided. The get_weather_forecast</text>
+    <text x="529.0" y="242.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">function is the right fit for the weather request because</text>
+    <text x="529.0" y="259.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">it accepts city and date, and New York is the city</text>
+    <text x="529.0" y="276.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">corresponding to JFK. I will call both functions together</text>
+    <text x="529.0" y="293.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">with the exact values provided: origin SFO, destination</text>
+    <text x="529.0" y="310.0" font-size="13" fill="#1e3207" text-anchor="start" font-weight="normal">JFK, date 2026-11-03, and city New York.</text>
+    <rect x="515.0" y="336.0" width="455.0" height="28.0" rx="12" fill="#1e3207"/>
+    <text x="529.0" y="355.0" font-size="12" fill="white" text-anchor="start" font-weight="normal">search_flights(origin="SFO", destination="JFK", date="2026-11-03")</text>
+    <rect x="515.0" y="370.0" width="455.0" height="28.0" rx="12" fill="#1e3207"/>
+    <text x="529.0" y="389.0" font-size="12" fill="white" text-anchor="start" font-weight="normal">get_weather_forecast(city="New York", date="2026-11-03")</text>
+    <text x="500.0" y="430.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">The fine-tune keeps the same two calls and spends half the tokens on the thought that justifies them.</text>
+  </g>
+</svg>

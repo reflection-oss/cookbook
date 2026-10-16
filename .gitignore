@@ -1,0 +1,25 @@
+# secrets
+.env
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# model / data artifacts
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+*.gguf
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,13 @@
+# Written by solve.sh into the task.toml of every task it stages for Harbor (TMax's converter writes Harbor's defaults).
+# Harbor's defaults (agent 600 s, verifier 120 s, build 600 s) are too short for these tasks.
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+timeout_sec = 1800.0
+
+[environment]
+cpus = 1
+memory_mb = 2048
+allow_internet = true
+build_timeout_sec = 3600.0

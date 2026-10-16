@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">From golden traces to training rows</title>
+  <desc id="desc">1,190 golden traces from 500 training environments; 1,147 fit in 65k tokens once rendered; 1,033 are trained on and 114 are held out for the eval loss.</desc>
+  <rect width="1000" height="320" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" fill="#1e3207" font-weight="600">Our training set, from 500 environments</text>
+    <g font-size="17" fill="#1a1b1a">
+      <text x="40" y="108">Golden traces, at most two per environment</text>
+      <text x="40" y="168">Fit in 65k tokens once rendered</text>
+      <text x="40" y="228">Trained on</text>
+      <text x="40" y="288">Held out for the eval loss</text>
+    </g>
+    <g>
+      <rect x="420" y="84" width="540" height="36" rx="8" fill="#dfe4d8"/>
+      <rect x="420" y="144" width="520" height="36" rx="8" fill="#dfe4d8"/>
+      <rect x="420" y="204" width="469" height="36" rx="8" fill="#1e3207"/>
+      <rect x="420" y="264" width="52" height="36" rx="8" fill="#1e3207"/>
+    </g>
+    <g font-size="17" font-weight="600">
+      <text x="434" y="108" fill="#1e3207">1,190 = 895 corpus + 295 rollouts</text>
+      <text x="434" y="168" fill="#1e3207">1,147 · 21,660 tokens on average, 24.8M in total</text>
+      <text x="434" y="228" fill="white">1,033 · 66 optimizer steps at a batch of 32</text>
+      <text x="482" y="288" fill="#1e3207">114</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+# Training stack: the versions of the reference runs, on Python 3.12 with
+# CUDA 13.0 wheels for torch.
+torch==2.9.1
+transformers==5.19.0
+trl==1.14.2
+accelerate==1.15.0
+datasets==5.1.0
+# Used only by check_run.py for the loss plot.
+matplotlib==3.11.2

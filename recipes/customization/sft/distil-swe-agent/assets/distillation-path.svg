@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Distilling a terminal agent</title>
+  <desc id="desc">Beam solves terminal environments. The attempts that pass each environment's hidden test are kept as golden traces. Gemma 4 E4B is fine-tuned on them, then evaluated on held-out environments with the same hidden tests.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker>
+  </defs>
+  <rect width="1000" height="250" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <rect x="25" y="55" width="195" height="92" rx="12" fill="#dfe4d8"/>
+    <rect x="275" y="55" width="205" height="92" rx="12" fill="#1e3207"/>
+    <rect x="535" y="55" width="205" height="92" rx="12" fill="#dfe4d8"/>
+    <rect x="795" y="55" width="180" height="92" rx="12" fill="#1e3207"/>
+    <g font-size="21" font-weight="600">
+      <text x="122.5" y="94" fill="#1e3207">Terminal</text>
+      <text x="122.5" y="121" fill="#1e3207">environments</text>
+      <text x="377.5" y="94" fill="white">Beam solves</text>
+      <text x="377.5" y="121" fill="white">them</text>
+      <text x="637.5" y="94" fill="#1e3207">Keep the traces</text>
+      <text x="637.5" y="121" fill="#1e3207">that pass the test</text>
+      <text x="885" y="94" fill="white">Fine-tune</text>
+      <text x="885" y="121" fill="white">Gemma 4 E4B</text>
+    </g>
+    <text x="500" y="216" font-size="17" fill="#1e3207">Evaluate the student on held-out environments with the same hidden tests</text>
+  </g>
+  <g fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M228 101H264"/>
+    <path d="M488 101H524"/>
+    <path d="M748 101H784"/>
+    <path d="M885 155V177Q885 187 875 187H135Q125 187 125 177V157"/>
+  </g>
+</svg>

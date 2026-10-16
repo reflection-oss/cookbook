@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of a golden trace</title>
+  <desc id="desc">A trace is the system prompt, the task, then repeated assistant turns of reasoning plus a bash call followed by the tool output, ending with the submit command. It is kept only if it submitted, used at most 250 commands, never repeated a command five times, stayed under 128k tokens and never read the hidden test.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker>
+  </defs>
+  <rect width="1000" height="330" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <rect x="25" y="50" width="120" height="70" rx="10" fill="#dfe4d8"/>
+    <rect x="175" y="50" width="150" height="70" rx="10" fill="#dfe4d8"/>
+    <rect x="355" y="50" width="200" height="70" rx="10" fill="#1e3207"/>
+    <rect x="585" y="50" width="150" height="70" rx="10" fill="#dfe4d8"/>
+    <rect x="845" y="50" width="130" height="70" rx="10" fill="#1e3207"/>
+    <g font-size="17" font-weight="600">
+      <text x="85" y="91" fill="#1e3207">system</text>
+      <text x="250" y="82" fill="#1e3207">user:</text>
+      <text x="250" y="104" fill="#1e3207">the task</text>
+      <text x="455" y="82" fill="white">assistant: reasoning</text>
+      <text x="455" y="104" fill="white">+ bash tool call</text>
+      <text x="660" y="82" fill="#1e3207">tool:</text>
+      <text x="660" y="104" fill="#1e3207">command output</text>
+      <text x="910" y="82" fill="white">assistant:</text>
+      <text x="910" y="104" fill="white">submit</text>
+    </g>
+    <text x="790" y="40" font-size="16" fill="#1e3207">25 commands on median</text>
+    <text x="500" y="200" font-size="18" fill="#1e3207" font-weight="600">Kept only if it</text>
+    <g font-size="16" fill="#1a1b1a">
+      <text x="140" y="240">ended with the submit command</text>
+      <text x="400" y="240">used at most 250 commands</text>
+      <text x="660" y="240">never repeated a command 5× in a row</text>
+      <text x="300" y="275">stayed under 128k estimated tokens</text>
+      <text x="640" y="275">never read the hidden test or /tests</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M153 85H168"/>
+    <path d="M333 85H348"/>
+    <path d="M563 85H578"/>
+    <path d="M743 85H838"/>
+    <path d="M660 128V148Q660 156 650 156H465Q455 156 455 148V130"/>
+  </g>
+</svg>

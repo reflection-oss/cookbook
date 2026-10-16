@@ -1,0 +1,5 @@
+openai==3.25.0
+datasets==5.1.0
+requests==2.34.2
+tqdm==4.70.1
+python-dotenv==1.2.4

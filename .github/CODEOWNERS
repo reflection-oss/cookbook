@@ -1,0 +1,8 @@
+# Default owners for everything
+*                                   @reflection-oss/oss
+
+# Recipe owners
+/recipes/customization/README.md     @reflection-oss/oss
+/recipes/customization/data-synthesis/ @reflection-oss/oss
+/recipes/customization/sft/         @reflection-oss/oss
+/recipes/customization/rl/          @reflection-oss/oss

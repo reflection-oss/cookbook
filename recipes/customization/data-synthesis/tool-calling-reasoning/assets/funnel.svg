@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="424" viewBox="0 0 1000 424" role="img" aria-labelledby="title desc">
+<title id="title">Two selection rules, two funnels</title>
+<desc id="desc">Nemotron: 52,828 rows in the pool, 11,292 pass the look-up-then-act rule, 3,000 are drawn and 2,796 are kept after the audit. ToolACE: 11,300 conversations, 1,635 selected, 1,145 kept after act-don't-ask and the audit.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+<rect width="1000" height="424" rx="16" fill="#f8f6f0"/>
+<text x="30.0" y="36.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#1e3207" text-anchor="start">Two selection rules, two funnels</text>
+<text x="30.0" y="68.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="start">Nemotron customer service</text>
+<rect x="30.0" y="100.0" width="100.0" height="96.0" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="80.0" y="92.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">52,828</text>
+<text x="80.0" y="214.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">rows in the pool</text>
+<path d="M140.0 193.0L290.0 193.0" fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="215.0" y="140.8" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">19,502 fewer than two</text><text x="215.0" y="154.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">calls; 21,746 no state</text><text x="215.0" y="168.2" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">dependence; 219 too</text><text x="215.0" y="182.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">long; 69 transfer only</text>
+<rect x="300.0" y="175.5" width="100.0" height="20.5" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="350.0" y="167.5" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">11,292</text>
+<text x="350.0" y="214.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">pass look up, then</text><text x="350.0" y="229.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">act</text>
+<path d="M410.0 193.0L560.0 193.0" fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="485.0" y="316.8" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">act, don't ask: 463 call-</text>
+<text x="485.0" y="330.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">result conversations</text>
+<text x="485.0" y="344.2" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">answered from memory;</text>
+<text x="485.0" y="358.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">the audit dropped 11</text>
+<rect x="570.0" y="190.0" width="100.0" height="6.0" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="620.0" y="354.3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">1,145</text>
+<text x="620.0" y="390.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">kept in our run,</text>
+<text x="620.0" y="405.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">from 2,922 sent</text>
+<path d="M680.0 193.0L830.0 193.0" fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="755.0" y="168.2" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">204 had a turn the audit</text><text x="755.0" y="182.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">dropped</text>
+<rect x="840.0" y="190.0" width="100.0" height="6.0" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="890.0" y="182.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">2,796</text>
+<text x="890.0" y="214.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">kept after the</text><text x="890.0" y="229.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">audit</text>
+<text x="30.0" y="244.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="start">ToolACE</text>
+<rect x="30.0" y="276.0" width="100.0" height="96.0" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="80.0" y="268.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">11,300</text>
+<text x="80.0" y="390.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">conversations</text>
+<path d="M140.0 369.0L290.0 369.0" fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="215.0" y="303.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">1,302 without a call are</text><text x="215.0" y="316.8" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">skipped; every multi-</text><text x="215.0" y="330.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">step and call-result</text><text x="215.0" y="344.2" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">conversation and 840</text><text x="215.0" y="358.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8f9a84" text-anchor="middle">single-call ones go on</text>
+<rect x="300.0" y="358.1" width="100.0" height="13.9" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+<text x="350.0" y="350.1" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e3207" text-anchor="middle">1,635</text>
+<text x="350.0" y="390.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1e3207" text-anchor="middle">selected</text>
+<path d="M410.0 369.0L560.0 369.0" fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="570.0" y="362.3" width="100.0" height="9.7" rx="4" fill="#1e3207" stroke="none" stroke-width="1.5"/>
+</svg>

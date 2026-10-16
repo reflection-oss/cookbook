@@ -1,0 +1,24 @@
+<svg viewBox="0 0 880 380" role="img" aria-label="Mean response length (tokens) over 200 training updates" xmlns="http://www.w3.org/2000/svg">
+<rect width="880" height="380" fill="#f8f7f2" />
+<title>Shorter responses during training</title>
+<desc>Mean response length (tokens) measured from update 5 to update 200.</desc>
+<text x="82" y="35" fill="#1e3207" font-size="22" font-weight="600">Shorter responses during training</text>
+<line x1="82" y1="310.00" x2="832" y2="310.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="315.00" text-anchor="end" fill="#1e3207" font-size="14">2,500</text>
+<line x1="82" y1="252.50" x2="832" y2="252.50" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="257.50" text-anchor="end" fill="#1e3207" font-size="14">2,700</text>
+<line x1="82" y1="195.00" x2="832" y2="195.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="200.00" text-anchor="end" fill="#1e3207" font-size="14">2,900</text>
+<line x1="82" y1="137.50" x2="832" y2="137.50" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="142.50" text-anchor="end" fill="#1e3207" font-size="14">3,100</text>
+<line x1="82" y1="80.00" x2="832" y2="80.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="85.00" text-anchor="end" fill="#1e3207" font-size="14">3,300</text>
+<text x="82.00" y="336" text-anchor="middle" fill="#1e3207" font-size="14">0</text>
+<text x="264.93" y="336" text-anchor="middle" fill="#1e3207" font-size="14">50</text>
+<text x="447.85" y="336" text-anchor="middle" fill="#1e3207" font-size="14">100</text>
+<text x="630.78" y="336" text-anchor="middle" fill="#1e3207" font-size="14">150</text>
+<text x="813.71" y="336" text-anchor="middle" fill="#1e3207" font-size="14">200</text>
+<text x="457" y="368" text-anchor="middle" fill="#1e3207" font-size="15">Training update</text>
+<text transform="translate(22 195) rotate(-90)" text-anchor="middle" fill="#1e3207" font-size="15">Mean response length (tokens)</text>
+<polyline points="100.29,108.33 118.59,115.25 136.88,113.83 155.17,121.23 173.46,116.46 191.76,120.81 210.05,119.07 228.34,125.89 246.63,131.83 264.93,125.97 283.22,139.56 301.51,134.76 319.80,143.62 338.10,145.22 356.39,155.70 374.68,157.34 392.98,163.05 411.27,154.32 429.56,164.48 447.85,168.47 466.15,170.90 484.44,178.74 502.73,199.42 521.02,189.68 539.32,217.04 557.61,209.13 575.90,211.31 594.20,221.74 612.49,222.80 630.78,233.15 649.07,236.51 667.37,233.77 685.66,247.45 703.95,247.55 722.24,256.79 740.54,255.95 758.83,268.67 777.12,268.01 795.41,264.89 813.71,280.11" fill="none" stroke="#1e3207" stroke-width="2.5" stroke-linejoin="round" />
+</svg>

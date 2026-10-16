@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">From sampled axes to golden traces</title>
+  <desc id="desc">TMax samples a task from its axes. Beam writes the task, its tests and a container definition. The container is built and smoke-tested, with build errors sent back to Beam for repair. Harbor runs a no-op control and then Beam solves the task; the hidden verifier grades each attempt and passing trajectories become golden traces.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker>
+  </defs>
+  <rect width="1000" height="300" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <rect x="25" y="60" width="150" height="92" rx="12" fill="#dfe4d8"/>
+    <rect x="215" y="60" width="190" height="92" rx="12" fill="#1e3207"/>
+    <rect x="445" y="60" width="170" height="92" rx="12" fill="#dfe4d8"/>
+    <rect x="655" y="60" width="150" height="92" rx="12" fill="#dfe4d8"/>
+    <rect x="845" y="60" width="130" height="92" rx="12" fill="#1e3207"/>
+    <g font-size="20" font-weight="600">
+      <text x="100" y="99" fill="#1e3207">TMax samples</text>
+      <text x="100" y="124" fill="#1e3207">a task</text>
+      <text x="310" y="92" fill="white">Beam writes task,</text>
+      <text x="310" y="114" fill="white">tests and</text>
+      <text x="310" y="136" fill="white">container</text>
+      <text x="530" y="99" fill="#1e3207">Build and</text>
+      <text x="530" y="124" fill="#1e3207">smoke test</text>
+      <text x="730" y="92" fill="#1e3207">Harbor:</text>
+      <text x="730" y="114" fill="#1e3207">no-op control,</text>
+      <text x="730" y="136" fill="#1e3207">Beam solves</text>
+      <text x="910" y="99" fill="white">Golden</text>
+      <text x="910" y="124" fill="white">traces</text>
+    </g>
+    <text x="420" y="222" font-size="17" fill="#1e3207">Build error goes back to Beam, up to three repair rounds</text>
+    <text x="730" y="260" font-size="17" fill="#1e3207">The hidden verifier grades every attempt</text>
+  </g>
+  <g fill="none" stroke="#1e3207" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M183 106H208"/>
+    <path d="M413 106H438"/>
+    <path d="M623 106H648"/>
+    <path d="M813 106H838"/>
+    <path d="M530 160V185Q530 195 520 195H320Q310 195 310 185V162"/>
+  </g>
+</svg>

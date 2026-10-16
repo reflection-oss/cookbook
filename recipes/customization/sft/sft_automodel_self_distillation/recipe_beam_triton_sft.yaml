@@ -1,0 +1,30 @@
+recipe: TrainFinetuneRecipeForNextTokenPrediction
+step_scheduler: {global_batch_size: 8, local_batch_size: 1, num_epochs: 2, ckpt_every_steps: 1000000,
+                 save_checkpoint_every_epoch: false, val_every_steps: 7}
+dist_env: {backend: nccl, timeout_minutes: 120}
+rng: {_target_: nemo_automodel.components.training.rng.StatefulRNG, seed: 1234, ranked: true}
+model:
+  _target_: nemo_automodel.NeMoAutoModelForCausalLM.from_pretrained
+  pretrained_model_name_or_path: /models/Beam-1.0-501B-A23B
+  dtype: bfloat16
+  backend: {_target_: nemo_automodel.components.models.common.BackendConfig, attn: te, linear: torch,
+            rms_norm: torch_fp32, experts: torch_mm, dispatcher: torch, rope_fusion: false,
+            enable_hf_state_dict_adapter: true, enable_fsdp_optimizations: false}
+checkpoint: {enabled: true, checkpoint_dir: /shared/ckpt/beam-triton-sft, model_save_format: safetensors, save_consolidated: final}
+distributed: {strategy: fsdp2, tp_size: 1, cp_size: 8, pp_size: 1, ep_size: 64, sequence_parallel: false,
+              activation_checkpointing: true, reshard_after_forward: true}
+clip_grad_norm: {max_norm: 1.0}
+loss_fn: {_target_: nemo_automodel.components.loss.masked_ce.MaskedCrossEntropy}
+dataset: {_target_: pretok_dataset.PreTokenizedJsonlDataset, path: data/self-distillation/train.tok.jsonl, seq_length: 65536,
+          tokenizer: {_target_: transformers.AutoTokenizer.from_pretrained, pretrained_model_name_or_path: /models/Beam-1.0-501B-A23B}}
+validation_dataset: {_target_: pretok_dataset.PreTokenizedJsonlDataset, path: data/self-distillation/val.tok.jsonl, seq_length: 65536,
+          tokenizer: {_target_: transformers.AutoTokenizer.from_pretrained, pretrained_model_name_or_path: /models/Beam-1.0-501B-A23B}}
+packed_sequence: {packed_sequence_size: 32768}
+dataloader: {_target_: torchdata.stateful_dataloader.StatefulDataLoader,
+             collate_fn: nemo_automodel.components.datasets.utils.packed_sequence_thd_collater, shuffle: true, drop_last: false, num_workers: 0}
+validation_dataloader: {_target_: torchdata.stateful_dataloader.StatefulDataLoader,
+             collate_fn: nemo_automodel.components.datasets.utils.packed_sequence_thd_collater, shuffle: false, drop_last: false, num_workers: 0}
+optimizer: {_target_: transformer_engine.pytorch.optimizers.fused_adam.FusedAdam, lr: 1.0e-5, betas: [0.9, 0.95], eps: 1.0e-8,
+            weight_decay: 0.0, adam_w_mode: true, bias_correction: true, master_weights: true, master_weight_dtype: torch.float32,
+            store_param_remainders: true, exp_avg_dtype: torch.float32, exp_avg_sq_dtype: torch.float32}
+lr_scheduler: {lr_warmup_steps: 3, lr_decay_style: cosine, min_lr: 1.0e-6}

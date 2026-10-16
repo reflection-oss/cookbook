@@ -1,0 +1,26 @@
+<svg viewBox="0 0 880 380" role="img" aria-label="AIME2025 accuracy over 200 training updates" xmlns="http://www.w3.org/2000/svg">
+<rect width="880" height="380" fill="#f8f7f2" />
+<title>Math reasoning improves with RL</title>
+<desc>AIME2025 accuracy measured from update 5 to update 200.</desc>
+<text x="82" y="35" fill="#1e3207" font-size="22" font-weight="600">Math reasoning improves with RL</text>
+<line x1="82" y1="310.00" x2="832" y2="310.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="315.00" text-anchor="end" fill="#1e3207" font-size="14">48%</text>
+<line x1="82" y1="258.89" x2="832" y2="258.89" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="263.89" text-anchor="end" fill="#1e3207" font-size="14">52%</text>
+<line x1="82" y1="207.78" x2="832" y2="207.78" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="212.78" text-anchor="end" fill="#1e3207" font-size="14">56%</text>
+<line x1="82" y1="156.67" x2="832" y2="156.67" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="161.67" text-anchor="end" fill="#1e3207" font-size="14">60%</text>
+<line x1="82" y1="105.56" x2="832" y2="105.56" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="110.56" text-anchor="end" fill="#1e3207" font-size="14">64%</text>
+<line x1="82" y1="80.00" x2="832" y2="80.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="85.00" text-anchor="end" fill="#1e3207" font-size="14">66%</text>
+<text x="82.00" y="336" text-anchor="middle" fill="#1e3207" font-size="14">0</text>
+<text x="264.93" y="336" text-anchor="middle" fill="#1e3207" font-size="14">50</text>
+<text x="447.85" y="336" text-anchor="middle" fill="#1e3207" font-size="14">100</text>
+<text x="630.78" y="336" text-anchor="middle" fill="#1e3207" font-size="14">150</text>
+<text x="813.71" y="336" text-anchor="middle" fill="#1e3207" font-size="14">200</text>
+<text x="457" y="368" text-anchor="middle" fill="#1e3207" font-size="15">Training update</text>
+<text transform="translate(22 195) rotate(-90)" text-anchor="middle" fill="#1e3207" font-size="15">AIME2025 accuracy</text>
+<polyline points="100.29,241.85 118.59,300.42 136.88,289.77 155.17,257.82 173.46,241.85 191.76,252.50 210.05,268.47 228.34,236.53 246.63,236.53 264.93,225.88 283.22,257.82 301.51,241.85 319.80,241.85 338.10,236.53 356.39,199.26 374.68,204.58 392.98,215.23 411.27,231.20 429.56,236.53 447.85,199.26 466.15,193.94 484.44,188.61 502.73,193.94 521.02,167.31 539.32,146.02 557.61,146.02 575.90,177.96 594.20,193.94 612.49,130.05 630.78,151.34 649.07,140.69 667.37,161.99 685.66,140.69 703.95,130.05 722.24,124.72 740.54,114.07 758.83,98.10 777.12,156.67 795.41,151.34 813.71,92.78" fill="none" stroke="#1e3207" stroke-width="2.5" stroke-linejoin="round" />
+</svg>

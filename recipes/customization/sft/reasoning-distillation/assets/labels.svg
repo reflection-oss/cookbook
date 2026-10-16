@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+  <title id="title">Label masking in the rendered conversation</title>
+  <desc id="desc">System prompt, user turns and tool results are masked; the thought, the tool calls, the reply and the end-of-turn token carry labels.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="1000" height="240" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="500.0" y="36.0" font-size="22" fill="#1e3207" text-anchor="middle" font-weight="600">Only what the model generates is trained</text>
+    <rect x="30.0" y="80.0" width="146.0" height="60.0" rx="8" fill="#d6d8d0"/>
+    <text x="103.0" y="106.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">system prompt and</text>
+    <text x="103.0" y="124.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">tools</text>
+    <text x="103.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">masked</text>
+    <rect x="180.0" y="80.0" width="96.0" height="60.0" rx="8" fill="#d6d8d0"/>
+    <text x="228.0" y="115.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">user turn</text>
+    <text x="228.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">masked</text>
+    <rect x="280.0" y="80.0" width="116.0" height="60.0" rx="8" fill="#e3ecd7"/>
+    <text x="338.0" y="115.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">thought</text>
+    <text x="338.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">trained</text>
+    <rect x="400.0" y="80.0" width="106.0" height="60.0" rx="8" fill="#1e3207"/>
+    <text x="453.0" y="115.0" font-size="14" fill="white" text-anchor="middle" font-weight="normal">tool call</text>
+    <text x="453.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">trained</text>
+    <rect x="510.0" y="80.0" width="106.0" height="60.0" rx="8" fill="#d6d8d0"/>
+    <text x="563.0" y="115.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">tool result</text>
+    <text x="563.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">masked</text>
+    <rect x="620.0" y="80.0" width="96.0" height="60.0" rx="8" fill="#e3ecd7"/>
+    <text x="668.0" y="115.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">thought</text>
+    <text x="668.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">trained</text>
+    <rect x="720.0" y="80.0" width="96.0" height="60.0" rx="8" fill="#1e3207"/>
+    <text x="768.0" y="115.0" font-size="14" fill="white" text-anchor="middle" font-weight="normal">reply</text>
+    <text x="768.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">trained</text>
+    <rect x="820.0" y="80.0" width="86.0" height="60.0" rx="8" fill="#1e3207"/>
+    <text x="863.0" y="106.0" font-size="14" fill="white" text-anchor="middle" font-weight="normal">end of</text>
+    <text x="863.0" y="124.0" font-size="14" fill="white" text-anchor="middle" font-weight="normal">turn</text>
+    <text x="863.0" y="164.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">trained</text>
+    <rect x="300.0" y="196.0" width="14.0" height="14.0" rx="3" fill="#e3ecd7"/>
+    <text x="320.0" y="208.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">thought, opened on every assistant turn</text>
+    <rect x="620.0" y="196.0" width="14.0" height="14.0" rx="3" fill="#1e3207"/>
+    <text x="640.0" y="208.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">calls, replies, end-of-turn token</text>
+  </g>
+</svg>

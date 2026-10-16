@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">How the fine-tuned model works differently</title>
+  <desc id="desc">The stock model runs a median of 12 commands per attempt and needs 14 attempts per solve, about 119k output tokens. The fine-tuned model runs 78 commands per attempt, needs 6.1 attempts per solve, about 279k output tokens.</desc>
+  <rect width="1000" height="330" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" fill="#1e3207" font-weight="600">Per attempt and per solve, same 684 attempts</text>
+    <g font-size="17" fill="#1a1b1a">
+      <text x="40" y="108">commands per attempt (median)</text>
+      <text x="40" y="172">attempts per solve</text>
+      <text x="40" y="236">output tokens per solve</text>
+    </g>
+    <g>
+      <rect x="340" y="84" width="92" height="22" rx="6" fill="#dfe4d8"/>
+      <rect x="340" y="110" width="600" height="22" rx="6" fill="#1e3207"/>
+      <rect x="340" y="148" width="600" height="22" rx="6" fill="#dfe4d8"/>
+      <rect x="340" y="174" width="261" height="22" rx="6" fill="#1e3207"/>
+      <rect x="340" y="212" width="256" height="22" rx="6" fill="#dfe4d8"/>
+      <rect x="340" y="238" width="600" height="22" rx="6" fill="#1e3207"/>
+    </g>
+    <g font-size="15" font-weight="600">
+      <text x="440" y="101" fill="#1e3207">12 stock</text>
+      <text x="930" y="127" fill="white" text-anchor="end">78 this recipe</text>
+      <text x="930" y="165" fill="#1e3207" text-anchor="end">14.0</text>
+      <text x="609" y="191" fill="#1e3207">6.1</text>
+      <text x="604" y="229" fill="#1e3207">119k</text>
+      <text x="930" y="255" fill="white" text-anchor="end">279k</text>
+    </g>
+    <text x="40" y="284" font-size="16" fill="#1a1b1a">The student works six times longer and gives up half as often, so a solve costs about 2.3× the tokens.</text>
+    <text x="40" y="308" font-size="16" fill="#1a1b1a">A 100-command limit would keep about 94% of its solves at about 85% of the tokens.</text>
+  </g>
+</svg>

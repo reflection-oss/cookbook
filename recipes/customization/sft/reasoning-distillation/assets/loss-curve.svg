@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Training loss and held-out loss of the E4B run</title>
+  <desc id="desc">The training loss falls from 1.51 at step 5 to 0.55 at step 115 and the held-out loss after the epoch is 0.528.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="1000" height="360" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="500.0" y="36.0" font-size="22" fill="#1e3207" text-anchor="middle" font-weight="600">One epoch at a low learning rate</text>
+    <line x1="80.0" y1="300.0" x2="940.0" y2="300.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="305.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">0.4</text>
+    <line x1="80.0" y1="261.7" x2="940.0" y2="261.7" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="266.7" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">0.6</text>
+    <line x1="80.0" y1="223.3" x2="940.0" y2="223.3" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="228.3" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">0.8</text>
+    <line x1="80.0" y1="185.0" x2="940.0" y2="185.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="190.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">1.0</text>
+    <line x1="80.0" y1="146.7" x2="940.0" y2="146.7" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="151.7" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">1.2</text>
+    <line x1="80.0" y1="108.3" x2="940.0" y2="108.3" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="113.3" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">1.4</text>
+    <line x1="80.0" y1="70.0" x2="940.0" y2="70.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="70.0" y="75.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">1.6</text>
+    <text x="80.0" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">0</text>
+    <text x="223.3" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">20</text>
+    <text x="366.7" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">40</text>
+    <text x="510.0" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">60</text>
+    <text x="653.3" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">80</text>
+    <text x="796.7" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">100</text>
+    <text x="940.0" y="322.0" font-size="13" fill="#1e3207" text-anchor="middle" font-weight="normal">120</text>
+    <text x="510.0" y="346.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">optimizer step</text>
+    <text transform="translate(28 185) rotate(-90)" text-anchor="middle" font-size="14" fill="#1e3207">loss</text>
+    <polyline points="115.8,88.1 151.7,163.9 187.5,219.1 223.3,234.2 259.2,249.2 295.0,253.1 330.8,261.4 366.7,264.4 402.5,267.1 438.3,269.0 474.2,267.6 510.0,271.8 545.8,269.6 581.7,274.0 617.5,266.6 653.3,270.5 689.2,272.9 725.0,275.4 760.8,272.8 796.7,273.0 832.5,271.7 868.3,274.5 904.2,270.9" fill="none" stroke="#1e3207" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="904.2" cy="270.9" r="5" fill="#1e3207" stroke="#f8f6f0" stroke-width="2"/>
+    <text x="894.2" y="258.9" font-size="14" fill="#1e3207" text-anchor="end" font-weight="normal">training loss 0.55</text>
+    <circle cx="918.5" cy="275.4" r="6" fill="#f8f6f0" stroke="#1e3207" stroke-width="2.5"/>
+    <text x="906.5" y="301.4" font-size="14" fill="#1e3207" text-anchor="end" font-weight="600">held-out loss 0.528</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+tmax/
+output/
+.env
+__pycache__/

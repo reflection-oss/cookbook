@@ -1,0 +1,24 @@
+<svg viewBox="0 0 880 380" role="img" aria-label="AIME2025 accuracy over 209 rollout steps" xmlns="http://www.w3.org/2000/svg">
+<rect width="880" height="380" fill="#f8f7f2" />
+<title>AIME2025 accuracy during training</title>
+<desc>42 evaluations without smoothing. Accuracy increases from 46.25% at rollout step 0 to 55.83% at step 209.</desc>
+<text x="82" y="35" fill="#1e3207" font-size="22" font-weight="600">Math reasoning improves with RL</text>
+<text x="82.0" y="336" text-anchor="middle" fill="#1e3207" font-size="14">0</text>
+<text x="256.4186046511628" y="336" text-anchor="middle" fill="#1e3207" font-size="14">50</text>
+<text x="430.83720930232556" y="336" text-anchor="middle" fill="#1e3207" font-size="14">100</text>
+<text x="605.2558139534884" y="336" text-anchor="middle" fill="#1e3207" font-size="14">150</text>
+<text x="779.6744186046511" y="336" text-anchor="middle" fill="#1e3207" font-size="14">200</text>
+<text x="457" y="368" text-anchor="middle" fill="#1e3207" font-size="15">Rollout step</text>
+<text transform="translate(22 195) rotate(-90)" text-anchor="middle" fill="#1e3207" font-size="15">AIME2025 accuracy</text>
+<line x1="82" y1="310.00" x2="832" y2="310.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="315.00" text-anchor="end" fill="#1e3207" font-size="14">44%</text>
+<line x1="82" y1="256.92" x2="832" y2="256.92" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="261.92" text-anchor="end" fill="#1e3207" font-size="14">47%</text>
+<line x1="82" y1="203.85" x2="832" y2="203.85" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="208.85" text-anchor="end" fill="#1e3207" font-size="14">50%</text>
+<line x1="82" y1="150.77" x2="832" y2="150.77" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="155.77" text-anchor="end" fill="#1e3207" font-size="14">53%</text>
+<line x1="82" y1="80.00" x2="832" y2="80.00" stroke="#1e3207" opacity="0.15" />
+<text x="68" y="85.00" text-anchor="end" fill="#1e3207" font-size="14">57%</text>
+<polyline points="82.00,270.18 95.95,307.05 113.40,233.34 130.84,299.68 148.28,255.45 165.72,277.57 183.16,218.58 200.60,262.82 218.05,248.08 235.49,270.18 252.93,270.18 270.37,248.08 287.81,218.58 305.26,225.97 322.70,218.58 340.14,137.51 357.58,225.97 375.02,166.98 392.47,181.74 409.91,181.74 444.79,203.85 462.23,144.88 479.67,166.98 497.12,174.35 514.56,181.74 532.00,152.25 549.44,144.88 566.88,130.12 584.33,144.88 601.77,130.12 619.21,144.88 636.65,115.38 654.09,122.75 671.53,122.75 688.98,144.88 706.42,93.28 723.86,122.75 741.30,130.12 758.74,130.12 776.19,115.38 793.63,85.89 811.07,100.65" fill="none" stroke="#1e3207" stroke-width="2.5" stroke-linejoin="round" />
+</svg>

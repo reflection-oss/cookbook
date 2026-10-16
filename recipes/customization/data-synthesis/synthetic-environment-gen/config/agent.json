@@ -1,0 +1,11 @@
+{
+  "agent": {"step_limit": 250},
+  "environment": {"timeout": 300},
+  "model": {
+    "model_kwargs": {
+      "timeout": 3600,
+      "max_tokens": 16384,
+      "temperature": 1.0
+    }
+  }
+}

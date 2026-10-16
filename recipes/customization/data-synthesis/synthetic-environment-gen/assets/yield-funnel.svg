@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">What survives each stage, per 1,000 sampled tasks</title>
+  <desc id="desc">Of 1,000 sampled tasks, about 940 parse, about 810 build and pass the smoke test, about 800 pass the no-op control, and about 440 are solved by Beam within two attempts, giving roughly 700 golden traces.</desc>
+  <rect width="1000" height="420" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" fill="#1e3207" font-weight="600">Per 1,000 sampled tasks, from our 30,000-task run</text>
+    <g font-size="17" fill="#1a1b1a">
+      <text x="40" y="110">Sampled</text>
+      <text x="40" y="170">Parsed (task, two tests, container)</text>
+      <text x="40" y="230">Built and smoke-tested</text>
+      <text x="40" y="290">Past the no-op control</text>
+      <text x="40" y="350">Solved by Beam within two attempts</text>
+    </g>
+    <g>
+      <rect x="340" y="86" width="620" height="36" rx="8" fill="#dfe4d8"/>
+      <rect x="340" y="146" width="583" height="36" rx="8" fill="#dfe4d8"/>
+      <rect x="340" y="206" width="502" height="36" rx="8" fill="#1e3207"/>
+      <rect x="340" y="266" width="496" height="36" rx="8" fill="#dfe4d8"/>
+      <rect x="340" y="326" width="273" height="36" rx="8" fill="#1e3207"/>
+    </g>
+    <g font-size="17" font-weight="600">
+      <text x="354" y="110" fill="#1e3207">1,000</text>
+      <text x="354" y="170" fill="#1e3207">940</text>
+      <text x="354" y="230" fill="white">810</text>
+      <text x="354" y="290" fill="#1e3207">800</text>
+      <text x="354" y="350" fill="white">440, about 700 golden traces</text>
+    </g>
+    <text x="40" y="398" font-size="16" fill="#1a1b1a">Three repair rounds take the build step from 43 % to 86 % of parsed tasks. The no-op control drops the few that arrive already solved.</text>
+  </g>
+</svg>

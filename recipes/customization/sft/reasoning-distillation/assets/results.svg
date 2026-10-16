@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">BFCL v4 overall and output tokens, stock against this recipe</title>
+  <desc id="desc">The recipe raises BFCL v4 overall on E2B and E4B, holds the 12B within two points, and cuts output tokens by 45 to 64 percent on all three.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#1e3207"/></marker></defs>
+  <rect width="1000" height="360" rx="16" fill="#f8f6f0"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="500.0" y="36.0" font-size="22" fill="#1e3207" text-anchor="middle" font-weight="600">Three sizes, one recipe</text>
+    <text x="250.0" y="66.0" font-size="16" fill="#1e3207" text-anchor="middle" font-weight="600">BFCL v4 overall</text>
+    <line x1="90.0" y1="290.0" x2="460.0" y2="290.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="82.0" y="295.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">0%</text>
+    <line x1="90.0" y1="237.5" x2="460.0" y2="237.5" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="82.0" y="242.5" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">15%</text>
+    <line x1="90.0" y1="185.0" x2="460.0" y2="185.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="82.0" y="190.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">30%</text>
+    <line x1="90.0" y1="132.5" x2="460.0" y2="132.5" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="82.0" y="137.5" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">45%</text>
+    <line x1="90.0" y1="80.0" x2="460.0" y2="80.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="82.0" y="85.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">60%</text>
+    <path d="M110.0 290.0V185.6Q110.0 181.6 114.0 181.6H130.0Q134.0 181.6 134.0 185.6V290.0Z" fill="#8f9a84"/>
+    <text x="122.0" y="175.6" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">30.98</text>
+    <path d="M148.0 290.0V177.5Q148.0 173.5 152.0 173.5H168.0Q172.0 173.5 172.0 177.5V290.0Z" fill="#1e3207"/>
+    <text x="160.0" y="167.5" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">33.30</text>
+    <text x="141.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">E2B</text>
+    <path d="M240.0 290.0V163.6Q240.0 159.6 244.0 159.6H260.0Q264.0 159.6 264.0 163.6V290.0Z" fill="#8f9a84"/>
+    <text x="252.0" y="153.6" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">37.26</text>
+    <path d="M278.0 290.0V150.8Q278.0 146.8 282.0 146.8H298.0Q302.0 146.8 302.0 150.8V290.0Z" fill="#1e3207"/>
+    <text x="290.0" y="140.8" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">40.92</text>
+    <text x="271.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">E4B</text>
+    <path d="M370.0 290.0V119.1Q370.0 115.1 374.0 115.1H390.0Q394.0 115.1 394.0 119.1V290.0Z" fill="#8f9a84"/>
+    <text x="382.0" y="109.1" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">49.98</text>
+    <path d="M408.0 290.0V124.9Q408.0 120.9 412.0 120.9H428.0Q432.0 120.9 432.0 124.9V290.0Z" fill="#1e3207"/>
+    <text x="420.0" y="114.9" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">48.32</text>
+    <text x="401.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">12B</text>
+    <text x="750.0" y="66.0" font-size="16" fill="#1e3207" text-anchor="middle" font-weight="600">Output tokens over the benchmark</text>
+    <line x1="590.0" y1="290.0" x2="960.0" y2="290.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="582.0" y="295.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">0M</text>
+    <line x1="590.0" y1="237.5" x2="960.0" y2="237.5" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="582.0" y="242.5" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">2M</text>
+    <line x1="590.0" y1="185.0" x2="960.0" y2="185.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="582.0" y="190.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">4M</text>
+    <line x1="590.0" y1="132.5" x2="960.0" y2="132.5" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="582.0" y="137.5" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">6M</text>
+    <line x1="590.0" y1="80.0" x2="960.0" y2="80.0" stroke="#1e3207" stroke-width="1" opacity="0.15"/>
+    <text x="582.0" y="85.0" font-size="13" fill="#1e3207" text-anchor="end" font-weight="normal">8M</text>
+    <path d="M610.0 290.0V181.1Q610.0 177.1 614.0 177.1H630.0Q634.0 177.1 634.0 181.1V290.0Z" fill="#8f9a84"/>
+    <text x="622.0" y="171.1" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">4.3</text>
+    <path d="M648.0 290.0V242.6Q648.0 238.6 652.0 238.6H668.0Q672.0 238.6 672.0 242.6V290.0Z" fill="#1e3207"/>
+    <text x="660.0" y="232.6" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">2.0</text>
+    <text x="641.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">E2B</text>
+    <path d="M740.0 290.0V184.3Q740.0 180.3 744.0 180.3H760.0Q764.0 180.3 764.0 184.3V290.0Z" fill="#8f9a84"/>
+    <text x="752.0" y="174.3" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">4.2</text>
+    <path d="M778.0 290.0V233.9Q778.0 229.9 782.0 229.9H798.0Q802.0 229.9 802.0 233.9V290.0Z" fill="#1e3207"/>
+    <text x="790.0" y="223.9" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">2.3</text>
+    <text x="771.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">E4B</text>
+    <path d="M870.0 290.0V109.2Q870.0 105.2 874.0 105.2H890.0Q894.0 105.2 894.0 109.2V290.0Z" fill="#8f9a84"/>
+    <text x="882.0" y="99.2" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">7.0</text>
+    <path d="M908.0 290.0V227.3Q908.0 223.3 912.0 223.3H928.0Q932.0 223.3 932.0 227.3V290.0Z" fill="#1e3207"/>
+    <text x="920.0" y="217.3" font-size="11" fill="#1e3207" text-anchor="middle" font-weight="normal">2.5</text>
+    <text x="901.0" y="310.0" font-size="14" fill="#1e3207" text-anchor="middle" font-weight="normal">12B</text>
+    <rect x="380.0" y="318.0" width="14.0" height="14.0" rx="3" fill="#8f9a84"/>
+    <text x="400.0" y="330.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">stock</text>
+    <rect x="460.0" y="318.0" width="14.0" height="14.0" rx="3" fill="#1e3207"/>
+    <text x="480.0" y="330.0" font-size="14" fill="#1e3207" text-anchor="start" font-weight="normal">this recipe</text>
+  </g>
+</svg>
