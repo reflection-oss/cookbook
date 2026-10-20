@@ -19,6 +19,10 @@ To add a recipe, see [CONTRIBUTING.md](CONTRIBUTING.md). If you use an AI coding
 
 - Model weights and model card: [reflection/Beam-1.0-501B-A23B](https://huggingface.co/reflection/Beam-1.0-501B-A23B)
 
+## Contact us
+
+Email us at [developers@reflection.ai](mailto:developers@reflection.ai) or join our [Discord](https://discord.com/invite/reflectionai).
+
 ## License
 
 Code in this repository is licensed under the [Apache 2.0 License](LICENSE). Model weights are covered by their own license.
